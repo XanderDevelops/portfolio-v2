@@ -1,0 +1,357 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    cursor: none;
+}
+
+.navbar {
+    margin-top: 0;
+    padding: 10px;
+    display: flex;
+    font-family: 'assets/fonts/BebasNeue-Regular.ttf', cursive;
+    font-size: 24px;
+    justify-content: end;
+    text-align: end;
+    margin-right: 200px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    opacity: 1;
+}
+
+.navbar li {
+    margin: 10px 0px;
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+    font-weight: bold;
+    transition: opacity 0.3s, font-size 0.3s;
+}
+
+.active {
+    color: #000000;
+    border-bottom: 4px solid rgb(255, 191, 0);
+    font-size: 28px;
+    opacity: 1;
+}
+
+.navbar a:hover {
+    opacity: 1;
+    font-size: 28px;
+}
+
+.navbar a::selection {
+    opacity: 1;
+    font-size: 32px;
+}
+
+.segment {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'assets/fonts/Scribbles-Regular.ttf', cursive;
+    font-size: 36px;
+    color: #000000;
+    background: radial-gradient(circle at center, transparent 10%, black 115%);
+    transition: background-color 5s ease-in-out;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+@media (min-width: 768px) {
+    .hero-subtitle {
+        font-size: 2.5rem;
+    }
+}
+
+.text-slider-items {
+    display: none;
+}
+
+.typed-cursor {
+    opacity: 1;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.segment img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+iframe {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 50px rgb(255, 255, 255);
+}
+
+.segment .tv {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+}
+
+/* //////// INTRO //////// */
+
+.intro {
+    background-color: rgb(255, 191, 0);
+    color: #000000;
+    text-shadow: 0px 0px 30px rgb(255, 255, 255);
+}
+
+.intro h1{
+    color: #000000;
+    font-size: 72px;
+    text-shadow: 0px 0px 50px rgb(0, 0, 0)
+}
+
+/* //////// ABOUT ME //////// */
+
+.who-am-i {
+    transition: background-color 0.5s ease;
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
+    text-shadow: black 0px 0px;
+    justify-content: center;
+    flex-direction: column;
+}
+.who-am-i h1{
+    color: #ffffff;
+    text-shadow: 0px 0px 50px rgb(255, 255, 255)
+}
+.who-am-i p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    text-shadow: 0px 0px 50px rgb(0, 0, 0);
+    width: 600px;
+}
+
+/* //////// MY PROJECTS //////// */
+
+.my-projects {
+    flex-direction: column;
+    background-color: #0017e4;
+}
+
+.my-projects h1{
+    color: #ffffff;
+    text-shadow: 0px 0px 60px rgb(255, 255, 255)
+}
+
+#container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* //////// FREELANCER //////// */
+
+.freelancer {
+    background-color: rgb(26, 128, 0);
+    color: #ffffff;
+}
+
+.freelancer h1{
+    color: #ffffff;
+    text-shadow: 0px 0px 60px rgb(255, 255, 255)
+}
+
+/* //////// MY REVIEWS //////// */
+
+.my-reviews {
+    background-color: #0017e4;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.my-reviews h1{
+    color: #ffffff;
+    text-shadow: 0px 0px 60px rgb(255, 255, 255)
+}
+
+.title-box text-center{
+    z-index: 1;
+}
+
+/* //////// YT CHANNEL //////// */
+
+.youtube-channel {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(18, 18, 18);
+    color: #ffffff;
+    justify-content: flex-start;
+}
+
+.youtube-channel h1{
+    color: #ffffff;
+    text-shadow: 0px 0px 30px rgb(255, 255, 255)
+}
+
+/* //////// SCRIBBLES //////// */
+
+.scribbles {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.scribbles h1{
+    color: #000000;
+    text-shadow: 0px 0px 60px rgb(255, 255, 255)
+}
+
+/* //////// CONTACT ME //////// */
+
+.reach-out {
+    background-color: rgb(26, 128, 0);
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.reach-out h1{
+    color: #ffffff;
+    text-shadow: 0px 0px 60px rgb(255, 255, 255)
+}
+
+.message-container label{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: -15px;
+}
+
+.message-container input{
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: none;
+    width: 300px;
+    height: 30px;
+    border: 0;
+    margin-bottom: 30px;
+}
+
+.message-container textarea{
+    flex-direction: column;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;    
+    padding-top: 10px;    
+    padding-bottom: 10px;
+    color: #000000;
+    box-shadow: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 100px;
+    margin-top: 18px;
+    border: 0;
+    font-family: 'assets/fonts/Scribbles-Regular.ttf', cursive;
+}
+
+.message-container button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 8px 40px;
+    font-size: 18px;
+    box-shadow:  0px 0px 30px rgb(255, 255, 255);
+    border: 0;
+    margin-top: 30px;
+    margin-left: 30%;
+}
+
+/* //////// CURSOR EFFECT //////// */
+  
+  bubbles{
+    position: absolute;
+    border-radius:100%;
+    background-color: #ffffff;
+    box-shadow:  0px 0px 30px rgb(255, 255, 255);
+    animation: colorgen 1s infinite;
+  }
+  
+  @keyframes colorgen {
+    0% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  /* //////////////// FLOATING PROJECTS ///////////////// */
+
+  
+.button-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.floating-button {
+    position: absolute;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}

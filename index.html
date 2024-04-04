@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="assets\images\ctr-retro-lines.svg" type="image/x-icon">
+    <script defer src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <title>Xander Develops</title>
+</head>
+
+<body>
+
+    <!-- Intro Section -->
+
+    <div id="intro" class="segment intro">
+        <canvas class="tv"></canvas>
+        <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-bar active" href="#intro">Intro</a></li>
+              <li><a class="nav-bar" href="#who-am-i">About me</a></li>
+              <li><a class="nav-bar" href="#my-projects">My projects</a></li>
+              <li><a class="nav-bar" href="#freelancer">My work</a></li>
+              <li><a class="nav-bar" href="#my-reviews">My reviews</a></li>
+              <li><a class="nav-bar" href="#youtube-channel">YouTube</a></li>
+              <li><a class="nav-bar" href="#scribbles">Scribbles</a></li>
+              <li><a class="nav-bar" href="#reach-out">Reach out</a></li>
+            </ul>
+          </nav>
+          
+        <img src="/assets/images/ctr-retro-lines.svg" alt="Common Image">
+        <h1 class="hero-subtitle"><span class="typed" data-typed-items="
+            Thanks for tuning in,
+            Welcome to my portfolio,
+            Alejandro Jimenez"></span></h1>
+    </div>
+
+    <!-- About me Section -->
+
+    <div id="who-am-i" class="segment who-am-i">
+        <canvas class="tv"></canvas>
+        <img src="/assets/images/ctr-retro-lines.svg" alt="Common Image">
+        <h1>Who am I?</h1>
+        <p> I am a software engineer and game developer,
+            freelancing since 2019.
+            <br></br>
+            Staying true to my
+            'jazzy' brain, I love integrating music, into
+            my projects.
+            <br></br>
+            Alongside my love for jazz and programming,
+            I'm also passionate about football, chess,
+            drawing, video editing, and music composition.</p>
+    </div>
+    <div id="my-projects" class="segment my-projects">
+        <canvas class="tv"></canvas>
+        <img src="/assets/images/ctr-retro-lines.svg" alt="Common Image">
+        <h1>My projects</h1>
+    </div>
+
+    <!-- My Work Section -->
+
+    <div id="freelancer" class="segment freelancer">
+        <canvas class="tv"></canvas>
+        <h1>Freelancer</h1>
+    </div>
+
+    <!-- My Reviews Section -->
+
+    <div id="my-reviews" class="segment my-reviews">
+        <canvas class="tv"></canvas>
+        <h1>My reviews</h1>        
+        <img src="/assets/images/ctr-retro-lines.svg" alt="Common Image">
+        <div class="title-box text-center">
+            <!-- <iframe 
+                src="https://www.fiverr.com/alejandrojim439" 
+                style="border:0px #ffffff none;"
+                name="myReviews" 
+                scrolling="yes"
+                frameborder="0"
+                marginheight="0px" 
+                marginwidth="0px"
+                height="440px"
+                width="920px"
+                allowfullscreen>
+            </iframe> -->
+        </div>
+    </div>
+
+    <!-- YouTube Channel Section -->
+
+    <div id="youtube-channel" class="segment youtube-channel">
+        <canvas class="tv"></canvas>
+        <img src="/assets/images/ctr-retro-white-lines.svg" alt="Common Image">
+        <h1>YouTube Channel</h1>
+    </div>
+
+    <!-- SCRIBBLES -->
+    <div id="scribbles" class="segment scribbles">
+        <canvas class="tv"></canvas>
+        <h1>Scribbles</h1>
+    </div>
+
+    <!--Contact Me Section -->
+
+    <div id="reach-out" class="segment reach-out">
+        <canvas class="tv"></canvas>
+        <img src="/assets/images/ctr-retro-lines.svg" alt="Common Image">
+        <h1>Reach out</h1>
+
+        <div class="message-container">
+            <form id="contactForm">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Hey Xander..." required></textarea>
+                <div>
+                    <button type="button" onclick="sendMessage()">Send</button>
+                </div>                
+            </form>
+        </div>
+    </div>
+</body>
+</html>

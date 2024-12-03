@@ -58,7 +58,7 @@ body {
     font-family: 'assets/fonts/stepon-lgnrz.otf', cursive;
     font-size: 36px;
     color: #000000;
-    background: radial-gradient(circle at center, transparent 10%, white 115%);
+    background: radial-gradient(circle at center, transparent 5%, black 115%);
     transition: background-color 5s ease-in-out;
 }
 
@@ -137,7 +137,7 @@ iframe {
     transition: background-color 0.5s ease;
     background-color: rgb(255, 0, 0);
     color: #ffffff;
-    text-shadow: white 0px 0px;
+    text-shadow: black 0px 0px;
     justify-content: center;
     flex-direction: column;
 }

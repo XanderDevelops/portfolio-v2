@@ -2,6 +2,9 @@ body {
     margin: 0;
     overflow: hidden;
     cursor: none;
+}
+
+h1{
     font-family: 'assets/fonts/stepon-lgnrz.otf';
 }
 

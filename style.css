@@ -55,7 +55,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'assets/fonts/Scribbles-Regular.ttf', cursive;
+    font-family: 'assets/fonts/stepon-lgnrz.otf', cursive;
     font-size: 36px;
     color: #000000;
     background: radial-gradient(circle at center, transparent 10%, black 115%);

@@ -8,7 +8,7 @@ body {
     margin-top: 0;
     padding: 10px;
     display: flex;
-    font-family: 'assets/fonts/BebasNeue-Regular.ttf', cursive;
+    font-family: 'assets/fonts/BebasNeue-Regular.ttf';
     font-size: 24px;
     justify-content: end;
     text-align: end;
